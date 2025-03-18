@@ -1,0 +1,29 @@
+{
+  "language": "zh",
+  "rules": [
+    {
+      "description": "所有生成的代码应使用 Rust 语言，并遵循 Cloudflare Workers 的最佳实践。",
+      "scope": "code_generation"
+    },
+    {
+      "description": "使用 D1 作为数据库，并确保所有 SQL 查询符合 SQLite 语法。",
+      "scope": "code_generation"
+    },
+    {
+      "description": "API 设计应符合 RESTful 规范，并返回 JSON 响应格式。",
+      "scope": "code_generation"
+    },
+    {
+      "description": "错误处理应采用 Rust 的 `Result` 进行管理，避免程序崩溃。",
+      "scope": "code_generation"
+    },
+    {
+      "description": "代码需要包含适当的注释，方便理解和维护。",
+      "scope": "code_generation"
+    },
+    {
+      "description": "所有解释和回复都应使用中文。",
+      "scope": "general"
+    }
+  ]
+}

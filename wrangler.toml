@@ -1,6 +1,14 @@
 name = "cloudflare-worker-rs"
 main = "build/worker/shim.mjs"
-compatibility_date = "2025-03-02"
+compatibility_date = "2024-01-01"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wifi"
+database_id = "c65adecd-999f-4261-b876-65fab1bc3300"  # 请确保替换为你的实际数据库 ID
+
+[vars]
+WORKERS_RS_VERSION = "0.5.0"
